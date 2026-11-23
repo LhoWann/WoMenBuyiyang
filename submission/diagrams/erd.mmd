@@ -1,0 +1,137 @@
+erDiagram
+    USER ||--o{ COURSE : "owns (lecturer)"
+    USER ||--o{ COURSE_MEMBER : "joins as"
+    COURSE ||--|{ COURSE_MEMBER : enrolls
+    COURSE ||--o{ MEETING : schedules
+    COURSE ||--o{ CONCEPT : covers
+    MEETING ||--|{ SLIDE : contains
+    MEETING ||--o{ QUESTION_GROUP : has
+    SLIDE ||--o{ LIVE_QUESTION : receives
+    QUESTION_GROUP ||--|{ LIVE_QUESTION : groups
+    SLIDE ||--o{ LOST_SIGNAL : receives
+    CONCEPT ||--o{ SLIDE : "taught in"
+    MEETING ||--o{ CHECK_SET : "ends with"
+    MEETING ||--o{ SUBMISSION : collects
+    CHECK_SET ||--|{ CHECK_ITEM : contains
+    SUBMISSION |o--o{ CHECK_ITEM : "source of"
+    CONCEPT ||--o{ CHECK_ITEM : tests
+    COURSE ||--o{ FREE_SLOT : offers
+    FREE_SLOT ||--o{ TICKET : "booked as"
+    CHECK_ITEM |o--o{ TICKET : "pre-fills"
+    CONCEPT ||--o{ TICKET : about
+    COURSE ||--o{ PROGRESS : tracks
+
+    USER {
+        string id PK
+        string name
+        string email
+        string nim_or_nip
+    }
+    COURSE {
+        string id PK
+        string lecturer_id FK
+        string code
+        string name
+        string semester
+    }
+    COURSE_MEMBER {
+        string course_id FK
+        string user_id FK
+        string role "lecturer, assistant, student"
+        string class_group
+    }
+    MEETING {
+        string id PK
+        string course_id FK
+        string presenter_id FK
+        string type "lecture, practicum"
+        int number
+        datetime starts_at
+    }
+    CONCEPT {
+        string id PK
+        string course_id FK
+        string name
+    }
+    SLIDE {
+        string id PK
+        string meeting_id FK
+        string concept_id FK
+        int page_no
+    }
+    QUESTION_GROUP {
+        string id PK
+        string meeting_id FK
+        string slide_id FK
+        string ai_summary
+        string status "open, answered"
+    }
+    LIVE_QUESTION {
+        string id PK
+        string slide_id FK
+        string group_id FK
+        string student_id FK
+        string text
+        boolean off_topic
+        datetime asked_at
+    }
+    LOST_SIGNAL {
+        string id PK
+        string slide_id FK
+        string student_id FK
+        datetime tapped_at
+    }
+    SUBMISSION {
+        string id PK
+        string meeting_id FK
+        string student_id FK
+        string file_url
+        string format "ipynb, py, pdf"
+        string extracted_code
+    }
+    CHECK_SET {
+        string id PK
+        string meeting_id FK
+        string student_id FK
+        float score
+        datetime completed_at
+    }
+    CHECK_ITEM {
+        string id PK
+        string check_set_id FK
+        string concept_id FK
+        string submission_id FK "empty for lecture items"
+        string kind "mcq, essay"
+        string prompt
+        string answer_key
+        string key_source "code_run, lecturer_approved"
+        string student_answer
+        boolean is_correct
+    }
+    PROGRESS {
+        string course_id FK
+        string student_id FK
+        int points
+        int current_streak
+        int best_streak
+    }
+    FREE_SLOT {
+        string id PK
+        string course_id FK
+        string assistant_id FK
+        datetime starts_at
+        datetime ends_at
+        string mode "online, offline, both"
+        string room
+        int capacity
+    }
+    TICKET {
+        string id PK
+        string slot_id FK
+        string student_id FK
+        string check_item_id FK "missed item"
+        string concept_id FK
+        string mode "online, offline"
+        string meet_link
+        string status "booked, done, cancelled, no_show"
+    }

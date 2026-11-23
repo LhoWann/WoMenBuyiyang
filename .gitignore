@@ -1,0 +1,41 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Scratch space (see CLAUDE.md)
+agent_space/
+
+# Local agent tooling, includes .exe binaries
+.agents/
+
+# Secrets and credentials
+.env
+.env.*
+.claude/settings.local.json
+*.pem
+*serviceAccount*.json
+*credentials*.json
+
+# Personal and student data: never commit
+submission/survey/*.csv
+submission/survey/*.xlsx
+**/signatures/
+**/student_data/
+
+# Generated files
+*_preview.pdf
+
+# Web prototype (React, Firebase)
+node_modules/
+dist/
+build/
+.firebase/
+*-debug.log
+
+# Office and OS files
+~$*
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
