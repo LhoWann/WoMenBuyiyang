@@ -12,6 +12,7 @@ agent_space/
 # Secrets and credentials
 .env
 .env.*
+!.env.example
 .claude/settings.local.json
 *.pem
 *serviceAccount*.json
@@ -23,8 +24,10 @@ submission/survey/*.xlsx
 **/signatures/
 **/student_data/
 
-# Generated files
+# Generated files (the built proposal holds the signature and NIM, so it stays local)
 *_preview.pdf
+submission/proposal/*.docx
+submission/proposal/*.pdf
 
 # Web prototype (React, Firebase)
 node_modules/

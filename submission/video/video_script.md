@@ -1,43 +1,45 @@
 # SAPA Semifinal Video Script (draft)
 
-Target length: 1:50 (limit 2:00). Faceless: member photos appear only in the intro. Narration in English, with English subtitles burned in. Export 1920x1080 (1080p) and post as one Instagram Reel with Collab.
+Target length: 1:50 (limit 2:00). Faceless: member photos appear only in the intro. Narration in English, with English subtitles burned in. Export at least 1080p (the handbook minimum). Reels play best vertical (1080x1920) on phones; if the screen recordings stay landscape, place them in the middle with the subtitles below. Post as one Instagram Reel with Collab.
 
-Narration is about 260 words, which fits about 1:50 at a calm speaking pace. If a read-through runs over 1:55, cut words from scene 3 first.
+Narration is about 250 words, which fits about 1:50 at a calm speaking pace. If a read-through runs over 1:55, cut words from scene 3 first.
 
-## Scene 1 - Team (0:00-0:12)
+Video rubric (handbook update, 26 Nov 2026): the video is half of the 10% Communication score. Its criteria are Team and Context Introduction 15%, Problem and Solution Explanation 25%, User Flow or Prototype Showcase 30%, Progress Honesty and Next Steps 20%, English and Production Quality 10%. Scene times below follow these weights, so scene 4 is the longest.
 
-**Visual:** SAPA title card, then four member photos with names and roles: Muhammad Ridwan (team leader), Nur Fattah Hamdani, Annisa Sofia Albana, Naufal Fahreza. Text: "wo men bu yi yang - Telkom University Surabaya - Case 1: Smarter Campus and Learning".
+## Scene 1 - Team and case (0:00-0:08)
 
-**Narration:**
-Hi, we are wo men bu yi yang from Telkom University Surabaya, and our case is Smarter Campus and Learning. Our team is Ridwan, Dani, Annisa and Naufal.
-
-## Scene 2 - Problem (0:12-0:40)
-
-**Visual:** A sample notebook that the team wrote, then the survey numbers on screen, one per line. Do not show any real student's work.
+**Visual:** SAPA title card, then four member photos with names and roles: Muhammad Ridwan (team leader, AI), Nur Fattah Hamdani (web), Naufal Fahreza (web), Annisa Sofia Albana (design). Text: "wo men bu yi yang - Telkom University Surabaya - Case 1: Smarter Campus and Learning".
 
 **Narration:**
-Ridwan and Dani are practicum assistants in a data science course. Every week students submit a notebook that runs, but a notebook cannot tell us whether the student understands the code. In our survey of [TEAM: n] students, [TEAM: X] percent said they had submitted code they could not explain line by line, and [TEAM: Y] percent stayed quiet when they were lost in a lecture.
+Hi, we are wo men bu yi yang from Telkom University Surabaya. Our project is SAPA, for Case 1, Smarter Campus and Learning.
 
-## Scene 3 - Solution (0:40-1:10)
+## Scene 2 - Problem (0:08-0:30)
+
+**Visual:** A sample notebook that the team wrote, then the survey numbers on screen, one per line, with "Survey, n = 10 of 66 students" in small text below. Do not show any real student's work.
+
+**Narration:**
+Two of us are practicum assistants in a data science course. Every week students submit a notebook that runs, but a notebook cannot tell us whether the student understands the code. We asked students in our two classes. All ten who answered had submitted code they could not explain line by line in the past month, and all ten had stayed quiet when they were lost in a lecture.
+
+## Scene 3 - Solution (0:30-0:50)
 
 **Visual:** The SAPA weekly cycle diagram (submission/diagrams/journey.png). Highlight each step as it is named.
 
 **Narration:**
-SAPA is a web app that the lecturer sets up for one course. It works in four steps. In Learn, students ask about a slide without classmates seeing their name, or tap "I'm lost". In Check, each student gets a short quiz. Practicum questions are written from the student's own notebook, and the answer keys come from running that code. In Assist, the student books a help session, and the ticket already names the missed concept. In Recap, the lecturer sees which slides lost the class.
+SAPA is a web app that the lecturer sets up for one course. It works in four steps: Learn, Check, Assist and Recap. Students ask questions without classmates seeing their name, take a short quiz about their own code, book help on what they missed, and the lecturer sees which slides lost the class.
 
-## Scene 4 - Prototype (1:10-1:40)
+## Scene 4 - User flow (0:50-1:35)
 
-**Visual:** Screen recording of the prototype with a sample notebook written by the team. Put a "Mockup" label in the corner of any screen that is a design and not working code.
+**Visual:** Mockup screens, one per step, following one student through one week. The app is not built yet, so every screen carries a "Mockup" label in the corner. The quiz screen uses the worked example from proposal Section 4.3 (sample code from the proposal, real qlcpy questions). [TEAM: Annisa makes the mockups before recording.]
 
 **Narration:**
-Here is our early prototype. [TEAM: one sentence per working flow, for example "A student uploads a notebook, and SAPA writes three questions about it." Describe only what really works.] Screens marked "Mockup" show designs that are not built yet.
+Here is one week for a student, shown as design mockups. In the lecture, she taps "I'm lost" on slide seven and asks a question without anyone seeing her name. After the practicum, she uploads her notebook. SAPA will run it in her browser and ask about her own code, for example which line creates a variable or what her function returns, with answer keys taken from that run. She misses the groupby question, sees the correct answer, and books a help session that already names groupby.
 
-## Scene 5 - Done and not yet (1:40-1:55)
+## Scene 5 - Done and not yet (1:35-1:55)
 
 **Visual:** Two columns on screen, "Done" and "Not yet", matching table 5.1 in the proposal.
 
 **Narration:**
-So far we have built [TEAM: done features]. Before Final Day we will finish [TEAM: remaining Learn and Check work], and on Final Day we will build help-session booking and the recap.
+So far we have surveyed our students and tested the question generator on sample code. The app itself is not built yet. Before Final Day we will build the Learn and Check steps and test them with five students outside the team. On Final Day we will build help-session booking and the recap.
 
 ## Scene 6 - Closing (1:55-2:00)
 
@@ -48,9 +50,10 @@ SAPA. Thank you.
 
 ## Production checklist
 
-- [ ] Every number in the narration matches the proposal (survey, post-test, done and not-yet lists).
+- [ ] Every number in the narration matches the proposal (survey, done and not-yet lists).
 - [ ] No real student files, names or code appear on screen; the demo uses notebooks the team wrote.
 - [ ] Subtitles are in English and readable on a phone.
+- [ ] Audio is clear, with no background music louder than the narration.
 - [ ] Final length is under 2:00 and the export is 1080p.
 - [ ] If the narration voice is generated by an AI text-to-speech tool, add that tool to proposal Section 7.2.
 - [ ] Reel posted with Collab, all four members accepted, all accounts public, link opened in an incognito window.

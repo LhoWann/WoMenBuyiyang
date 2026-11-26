@@ -1,0 +1,339 @@
+{
+ "model": "gemini-3.1-flash-lite",
+ "totals": {
+  "agree": 68,
+  "pairs": 76,
+  "off_caught": 6,
+  "off_total": 6,
+  "wrongly_off": 0
+ },
+ "passed": true,
+ "slides": [
+  {
+   "meeting": 2,
+   "page": 28,
+   "score": {
+    "agree": 6,
+    "pairs": 6,
+    "off_caught": 1,
+    "off_total": 1,
+    "wrongly_off": 0
+   },
+   "grouping": {
+    "groups": [
+     {
+      "label": "Perbedaan .loc dan .iloc untuk seleksi baris",
+      "question_ids": [
+       "q01",
+       "q02"
+      ]
+     },
+     {
+      "label": "Reset indeks agar urut kembali setelah filter",
+      "question_ids": [
+       "q03",
+       "q04"
+      ]
+     }
+    ],
+    "off_topic_ids": [
+     "q05"
+    ]
+   }
+  },
+  {
+   "meeting": 2,
+   "page": 35,
+   "score": {
+    "agree": 6,
+    "pairs": 10,
+    "off_caught": 1,
+    "off_total": 1,
+    "wrongly_off": 0
+   },
+   "grouping": {
+    "groups": [
+     {
+      "label": "Keanehan hasil output fillna pada baris pertama",
+      "question_ids": [
+       "q06",
+       "q10"
+      ]
+     },
+     {
+      "label": "Fungsi parameter inplace pada fungsi fillna",
+      "question_ids": [
+       "q07",
+       "q08",
+       "q09"
+      ]
+     }
+    ],
+    "off_topic_ids": [
+     "q11"
+    ]
+   }
+  },
+  {
+   "meeting": 2,
+   "page": 38,
+   "score": {
+    "agree": 2,
+    "pairs": 6,
+    "off_caught": 0,
+    "off_total": 0,
+    "wrongly_off": 0
+   },
+   "grouping": {
+    "groups": [
+     {
+      "label": "Perbedaan merge dan concat serta penggunaan axis",
+      "question_ids": [
+       "q12",
+       "q13",
+       "q14",
+       "q15"
+      ]
+     }
+    ],
+    "off_topic_ids": []
+   }
+  },
+  {
+   "meeting": 2,
+   "page": 43,
+   "score": {
+    "agree": 6,
+    "pairs": 6,
+    "off_caught": 1,
+    "off_total": 1,
+    "wrongly_off": 0
+   },
+   "grouping": {
+    "groups": [
+     {
+      "label": "Penggunaan indeks kolom pada pd.get_dummies",
+      "question_ids": [
+       "q16",
+       "q17"
+      ]
+     },
+     {
+      "label": "Format output True/False pada One Hot Encoding",
+      "question_ids": [
+       "q18",
+       "q19"
+      ]
+     }
+    ],
+    "off_topic_ids": [
+     "q20"
+    ]
+   }
+  },
+  {
+   "meeting": 3,
+   "page": 11,
+   "score": {
+    "agree": 10,
+    "pairs": 10,
+    "off_caught": 0,
+    "off_total": 0,
+    "wrongly_off": 0
+   },
+   "grouping": {
+    "groups": [
+     {
+      "label": "Pengaruh jumlah bins terhadap bentuk histogram",
+      "question_ids": [
+       "q21",
+       "q22"
+      ]
+     },
+     {
+      "label": "Perbedaan histogram dengan bar chart",
+      "question_ids": [
+       "q23",
+       "q24"
+      ]
+     },
+     {
+      "label": "Pertanyaan umum yang tidak spesifik",
+      "question_ids": [
+       "q25"
+      ]
+     }
+    ],
+    "off_topic_ids": []
+   }
+  },
+  {
+   "meeting": 3,
+   "page": 13,
+   "score": {
+    "agree": 6,
+    "pairs": 6,
+    "off_caught": 1,
+    "off_total": 1,
+    "wrongly_off": 0
+   },
+   "grouping": {
+    "groups": [
+     {
+      "label": "Kebingungan label persentil pada garis boxplot",
+      "question_ids": [
+       "q26",
+       "q27"
+      ]
+     },
+     {
+      "label": "Penentuan batas dan definisi outlier pada boxplot",
+      "question_ids": [
+       "q28",
+       "q29"
+      ]
+     }
+    ],
+    "off_topic_ids": [
+     "q30"
+    ]
+   }
+  },
+  {
+   "meeting": 3,
+   "page": 29,
+   "score": {
+    "agree": 10,
+    "pairs": 10,
+    "off_caught": 0,
+    "off_total": 0,
+    "wrongly_off": 0
+   },
+   "grouping": {
+    "groups": [
+     {
+      "label": "Menampilkan angka pada sns.heatmap",
+      "question_ids": [
+       "q31",
+       "q32"
+      ]
+     },
+     {
+      "label": "Mengapa diagonal pairplot berupa distribusi",
+      "question_ids": [
+       "q33",
+       "q34"
+      ]
+     },
+     {
+      "label": "Pertanyaan terlalu umum",
+      "question_ids": [
+       "q35"
+      ]
+     }
+    ],
+    "off_topic_ids": []
+   }
+  },
+  {
+   "meeting": 7,
+   "page": 14,
+   "score": {
+    "agree": 10,
+    "pairs": 10,
+    "off_caught": 1,
+    "off_total": 1,
+    "wrongly_off": 0
+   },
+   "grouping": {
+    "groups": [
+     {
+      "label": "Fit vs transform pada data training dan test",
+      "question_ids": [
+       "q36",
+       "q37",
+       "q38"
+      ]
+     },
+     {
+      "label": "Pemahaman slicing dataset menggunakan iloc",
+      "question_ids": [
+       "q39",
+       "q40"
+      ]
+     }
+    ],
+    "off_topic_ids": [
+     "q41"
+    ]
+   }
+  },
+  {
+   "meeting": 7,
+   "page": 22,
+   "score": {
+    "agree": 6,
+    "pairs": 6,
+    "off_caught": 0,
+    "off_total": 0,
+    "wrongly_off": 0
+   },
+   "grouping": {
+    "groups": [
+     {
+      "label": "Perhitungan penyebut dan nilai pecahan Bayes",
+      "question_ids": [
+       "q42",
+       "q43"
+      ]
+     },
+     {
+      "label": "Asal angka dalam tabel training",
+      "question_ids": [
+       "q44"
+      ]
+     },
+     {
+      "label": "Kesulitan memahami proses perhitungan rumus",
+      "question_ids": [
+       "q45"
+      ]
+     }
+    ],
+    "off_topic_ids": []
+   }
+  },
+  {
+   "meeting": 7,
+   "page": 34,
+   "score": {
+    "agree": 6,
+    "pairs": 6,
+    "off_caught": 1,
+    "off_total": 1,
+    "wrongly_off": 0
+   },
+   "grouping": {
+    "groups": [
+     {
+      "label": "Kebingungan membedakan metrik precision dan recall",
+      "question_ids": [
+       "q46",
+       "q47"
+      ]
+     },
+     {
+      "label": "Kelemahan metrik akurasi pada data tidak seimbang",
+      "question_ids": [
+       "q48",
+       "q49"
+      ]
+     }
+    ],
+    "off_topic_ids": [
+     "q50"
+    ]
+   }
+  }
+ ]
+}

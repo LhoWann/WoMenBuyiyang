@@ -6,6 +6,7 @@ erDiagram
     COURSE ||--o{ CONCEPT : covers
     MEETING ||--|{ SLIDE : contains
     MEETING ||--o{ QUESTION_GROUP : has
+    SLIDE ||--o{ QUESTION_GROUP : "grouped per"
     SLIDE ||--o{ LIVE_QUESTION : receives
     QUESTION_GROUP ||--|{ LIVE_QUESTION : groups
     SLIDE ||--o{ LOST_SIGNAL : receives
@@ -86,7 +87,7 @@ erDiagram
         string meeting_id FK
         string student_id FK
         string file_url
-        string format "ipynb, py, pdf"
+        string format "ipynb"
         string extracted_code
     }
     CHECK_SET {
@@ -101,7 +102,7 @@ erDiagram
         string check_set_id FK
         string concept_id FK
         string submission_id FK "empty for lecture items"
-        string kind "mcq, essay"
+        string kind "mcq, short_answer"
         string prompt
         string answer_key
         string key_source "code_run, lecturer_approved"
@@ -112,8 +113,6 @@ erDiagram
         string course_id FK
         string student_id FK
         int points
-        int current_streak
-        int best_streak
     }
     FREE_SLOT {
         string id PK

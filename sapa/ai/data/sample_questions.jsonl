@@ -1,0 +1,50 @@
+{"id": "q01", "meeting": 2, "page": 28, "text": "kak bedanya .loc[] sama .iloc[] pas milih baris pake indeks itu gmn ya?", "group": "loc_vs_iloc", "writer": "R"}
+{"id": "q02", "meeting": 2, "page": 28, "text": "kalo mau ngambil baris berdasarkan urutan angka posisi bukan nama labelnya pake yg mana?", "group": "loc_vs_iloc", "writer": "D"}
+{"id": "q03", "meeting": 2, "page": 28, "text": "abis hapus beberapa baris kan indeksnya jd bolong2, fungsi reset_index() buat ngurutin dr 0 lagi ya?", "group": "reset_index", "writer": "N"}
+{"id": "q04", "meeting": 2, "page": 28, "text": "cara biar nomor indeks barisnya rapih urut dr nol lg abis datanya difilter gmn?", "group": "reset_index", "writer": "R"}
+{"id": "q05", "meeting": 2, "page": 28, "text": "kak tugas minggu ke2 dikumpulinnya di lms atau gform ya?", "group": "off_topic", "writer": "D"}
+{"id": "q06", "meeting": 2, "page": 35, "text": "knp di outputnya cuma kolom SepalWidthCm yg keisi rata2, kolom lain di baris 0 masih NaN?", "group": "fillna_single_column", "writer": "N"}
+{"id": "q07", "meeting": 2, "page": 35, "text": "kak fillna() yg di contoh itu emg cuma ngisi satu kolom doang ya yg lain ga ikut?", "group": "fillna_single_column", "writer": "R"}
+{"id": "q08", "meeting": 2, "page": 35, "text": "parameter inplace=True di fillna() itu maksudnya biar datanya langsung berubah permanen ya?", "group": "inplace_effect", "writer": "D"}
+{"id": "q09", "meeting": 2, "page": 35, "text": "kalo ga nulis inplace=True brarti tabel iris aslinya ga kesimpen perubahannya ya?", "group": "inplace_effect", "writer": "N"}
+{"id": "q10", "meeting": 2, "page": 35, "text": "itu di tabel atas knp nama kolomnya malah masuk baris 0 terus jd NaN semua?", "group": "header_row_nan", "writer": "D"}
+{"id": "q11", "meeting": 2, "page": 35, "text": "kak notebook praktikum yg barusan dipake nanti dishare ga di elearning?", "group": "off_topic", "writer": "R"}
+{"id": "q12", "meeting": 2, "page": 38, "text": "kak pd.merge() sama pd.concat() bedanya apa ya kan sama2 buat gabungin dua tabel?", "group": "merge_vs_concat", "writer": "R"}
+{"id": "q13", "meeting": 2, "page": 38, "text": "kapan kita gabungin dua dataset pake kolom kunci tertentu kapan cukup ditempel langsung aja?", "group": "merge_vs_concat", "writer": "N"}
+{"id": "q14", "meeting": 2, "page": 38, "text": "di pd.concat yg axis=0 itu maksudnya nambahin baris ke bawah atau kolom ke samping?", "group": "concat_axis", "writer": "D"}
+{"id": "q15", "meeting": 2, "page": 38, "text": "kalo mau gabung dua tabel menyamping biar kolomnya yg nambah bukan barisnya, axis-nya diganti 1 ya?", "group": "concat_axis", "writer": "R"}
+{"id": "q16", "meeting": 2, "page": 43, "text": "kak itu columns=[5] di pd.get_dummies() maksudnya angka 5 nunjuk ke klom Species ya?", "group": "get_dummies_columns_index", "writer": "N"}
+{"id": "q17", "meeting": 2, "page": 43, "text": "kok di kodenya pake angka 5 buat nentuin kolom yg diencode bukan nulis nama kolomnya?", "group": "get_dummies_columns_index", "writer": "D"}
+{"id": "q18", "meeting": 2, "page": 43, "text": "one hot encoding hasilnya kok True False sih kak bukan angka 0 sama 1?", "group": "dummies_bool_vs_int", "writer": "R"}
+{"id": "q19", "meeting": 2, "page": 43, "text": "cara ngubah output True False di get_dummies biar jadi biner 1 sama 0 gmn ya?", "group": "dummies_bool_vs_int", "writer": "N"}
+{"id": "q20", "meeting": 2, "page": 43, "text": "presensi hari ini dibuka sampe jam brp kak?", "group": "off_topic", "writer": "D"}
+{"id": "q21", "meeting": 3, "page": 11, "text": "bedanya 10 bins sama 20 bins di histogram itu ngaruh ke apanya ya kok bentuk batangnya beda?", "group": "bins_effect", "writer": "R"}
+{"id": "q22", "meeting": 3, "page": 11, "text": "kalo jumlah pembagian intervalnya diubah di histogram, grafiknya bakal berubah gimana ya?", "group": "bins_effect", "writer": "N"}
+{"id": "q23", "meeting": 3, "page": 11, "text": "kak histogram sama diagram batang biasa bedanya apa sih? keliatanya mirip bgt", "group": "hist_vs_barchart", "writer": "D"}
+{"id": "q24", "meeting": 3, "page": 11, "text": "kapan datanya digambar pake histogram kapan pake bar chart biasa ya?", "group": "hist_vs_barchart", "writer": "R"}
+{"id": "q25", "meeting": 3, "page": 11, "text": "kak ini maksudnya gmn ya? msh blm nangkep", "group": "vague", "writer": "D"}
+{"id": "q26", "meeting": 3, "page": 13, "text": "kak di gambar boxplot kok garis paling atas sama paling bawah sama2 tulisannya 10th percentile?", "group": "whisker_percentile_typo", "writer": "N"}
+{"id": "q27", "meeting": 3, "page": 13, "text": "ujung garis atas boxplot itu bukannya persentil 90 atau maks ya knp ditulisnya 10th juga?", "group": "whisker_percentile_typo", "writer": "R"}
+{"id": "q28", "meeting": 3, "page": 13, "text": "tanda + yg di atas sama bawah garis itu nentuinnya lewat batas apa ya kok dianggap outlier?", "group": "outlier_detection", "writer": "D"}
+{"id": "q29", "meeting": 3, "page": 13, "text": "data yg mencar jauh di luar garis ujung boxplot itu batas nilai pencilannya dihitung dr mana?", "group": "outlier_detection", "writer": "N"}
+{"id": "q30", "meeting": 3, "page": 13, "text": "kak record kuliah hari ini nanti diupload di lms kan?", "group": "off_topic", "writer": "R"}
+{"id": "q31", "meeting": 3, "page": 29, "text": "parameter annot=True di sns.heatmap() gunanya buat nampilin angka di tiap kotaknya ya?", "group": "heatmap_annot", "writer": "D"}
+{"id": "q32", "meeting": 3, "page": 29, "text": "biar di dalem kotak warna korelasi itu ada angkanya bukan warna doang ngaturnya gmn kak?", "group": "heatmap_annot", "writer": "N"}
+{"id": "q33", "meeting": 3, "page": 29, "text": "kak di sns.pairplot() yg bagian diagonal tengah itu kok grafiknya beda sendiri ga titik2?", "group": "pairplot_diagonal", "writer": "R"}
+{"id": "q34", "meeting": 3, "page": 29, "text": "why does the diagonal of a pairplot show distribution bars instead of scatter dots?", "group": "pairplot_diagonal", "writer": "D"}
+{"id": "q35", "meeting": 3, "page": 29, "text": "bentar kak kecepetan, bagian ini maksudnya gimana ya?", "group": "vague", "writer": "N"}
+{"id": "q36", "meeting": 7, "page": 14, "text": "kak knp scaler.fit() cuma dipake ke X_train doang ga ke X_test juga?", "group": "scaler_fit_train_only", "writer": "R"}
+{"id": "q37", "meeting": 7, "page": 14, "text": "standrisasi data tes emang harus ngikutin rata2 sama sebaran data latih ya gaboleh itung sendiri?", "group": "scaler_fit_train_only", "writer": "N"}
+{"id": "q38", "meeting": 7, "page": 14, "text": "what happens if we fit StandardScaler on X_test too instead of only transform?", "group": "scaler_fit_train_only", "writer": "D"}
+{"id": "q39", "meeting": 7, "page": 14, "text": "kode dataset.iloc[:, :-1] maksudnya ngambil semua kolom kecuali kolom target yg terakhir ya kak?", "group": "iloc_feature_target", "writer": "R"}
+{"id": "q40", "meeting": 7, "page": 14, "text": "tanda :-1 pas motong kolom fitur di X itu artinya ngambil sampe sebelum kolom paling kanan ya?", "group": "iloc_feature_target", "writer": "N"}
+{"id": "q41", "meeting": 7, "page": 14, "text": "kak tugas eksplorasi mandiri yg dataset kaggle itu dl-nya kapan?", "group": "off_topic", "writer": "D"}
+{"id": "q42", "meeting": 7, "page": 22, "text": "kak nilai P(E) yg di bawah pecahan emg ga usah dihitung angkanya ya?", "group": "bayes_ignore_denominator", "writer": "R"}
+{"id": "q43", "meeting": 7, "page": 22, "text": "penyebut pembagi di rumus bayes itu dicari dulu atau langsung dibandingin aja pembilangnya?", "group": "bayes_ignore_denominator", "writer": "N"}
+{"id": "q44", "meeting": 7, "page": 22, "text": "angka 9/14 sama 2/9 di rumus bayes itu ngambil itungannya dari tabel training mana kak?", "group": "bayes_table_counts", "writer": "D"}
+{"id": "q45", "meeting": 7, "page": 22, "text": "ini ngitungnya gmn sih kak pusing bgt liatnya", "group": "vague", "writer": "R"}
+{"id": "q46", "meeting": 7, "page": 34, "text": "kak rumus precision sama recall suka ketuker, yg penyebutnya FP sama FN bedanya gmn ngafalinnya?", "group": "precision_vs_recall", "writer": "N"}
+{"id": "q47", "meeting": 7, "page": 34, "text": "kalo salah nebak positif sama kelewatan deteksi kasus yg beneran positif itu bedanya di metrik mana?", "group": "precision_vs_recall", "writer": "D"}
+{"id": "q48", "meeting": 7, "page": 34, "text": "knp akurasi ga cocok dipake pas jumlah data tiap kelasnya ga seimbang kak?", "group": "accuracy_imbalanced", "writer": "R"}
+{"id": "q49", "meeting": 7, "page": 34, "text": "misal 95% datanya negatif terus model nebak negatif mulu akurasinya tetp gede dong, makanya rancu ya?", "group": "accuracy_imbalanced", "writer": "N"}
+{"id": "q50", "meeting": 7, "page": 34, "text": "kak nanti pas uts materinya sampe klasifikasi aja atau nambah?", "group": "off_topic", "writer": "D"}
