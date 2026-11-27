@@ -18,16 +18,15 @@ agent_space/
 *serviceAccount*.json
 *credentials*.json
 
+# Competition submission (proposal, video, survey, signatures): local only
+submission/
+
 # Personal and student data: never commit
-submission/survey/*.csv
-submission/survey/*.xlsx
 **/signatures/
 **/student_data/
 
-# Generated files (the built proposal holds the signature and NIM, so it stays local)
+# Generated files
 *_preview.pdf
-submission/proposal/*.docx
-submission/proposal/*.pdf
 
 # Web prototype (React, Firebase)
 node_modules/
