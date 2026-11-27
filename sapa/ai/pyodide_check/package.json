@@ -1,0 +1,12 @@
+{
+  "name": "sapa-pyodide-check",
+  "private": true,
+  "type": "module",
+  "description": "Runs qlc_demo.questions inside Pyodide (Node), the first build task in proposal Section 4.3",
+  "scripts": {
+    "check": "node check_qlcpy.mjs"
+  },
+  "dependencies": {
+    "pyodide": "0.29.5"
+  }
+}
